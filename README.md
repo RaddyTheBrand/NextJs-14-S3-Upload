@@ -2,12 +2,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 
 ## Create a .env file
+Please do not use NEXT_PUBLIC_
 
 ```bash
-NEXT_PUBLIC_AWS_S3_REGION=eu-west-2
-NEXT_PUBLIC_AWS_S3_ACCESS_KEY_ID=
-NEXT_PUBLIC_AWS_S3_SECRET_ACCESS_KEY=
-NEXT_PUBLIC_AWS_S3_BUCKET_NAME=
+AWS_S3_REGION=eu-west-2
+AWS_S3_ACCESS_KEY_ID=
+AWS_S3_SECRET_ACCESS_KEY=
+AWS_S3_BUCKET_NAME=
 ```
 
 ## Run the project
